@@ -1,0 +1,112 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\Imani\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\Imani\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 11.0.8)
+[debug]       Load.loadUnit: plugins took 302.5663ms
+[debug]       Load.loadUnit: defsScala took 0.7745ms
+[debug] [Loading] Scanning directory C:\Users\Imani\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Imani\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 53.3987 ms
+[debug]           Load.resolveProject(global-plugins) took 148.9621ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Imani\.sbt\1.0\plugins, plugins: List(<none>))) took 287.6963ms
+[debug] [Loading] Done in C:\Users\Imani\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 433.0614ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.5ms
+[debug]     Load.loadUnit(file:/C:/Users/Imani/.sbt/1.0/plugins/, ...) took 758.1676ms
+[debug]   Load.apply: load took 1427.1746ms
+[debug]   Load.apply: resolveProjects took 16.9038ms
+[debug]   Load.apply: finalTransforms took 124.927ms
+[debug]   Load.apply: config.delegates took 15.3438ms
+[debug]   Load.apply: Def.make(settings)... took 12921.0056ms
+[debug]   Load.apply: structureIndex took 383.4942ms
+[debug]   Load.apply: mkStreams took 3.0322ms
+[info] loading global plugins from C:\Users\Imani\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 24228.0732ms
+[debug]           Load.loadUnit: plugins took 71.9347ms
+[debug]           Load.loadUnit: defsScala took 0.0083ms
+[debug] [Loading] Scanning directory D:\PRJ\Sbt\project
+[debug]             Load.loadUnit: mkEval took 14.2747ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\PRJ\Sbt\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 7.003 ms
+[info] loading settings for project sbt-build from idea.sbt ...
+[debug]               Load.resolveProject(sbt-build) took 56.2327ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id sbt-build, base: D:\PRJ\Sbt\project, plugins: List(<none>))) took 64.5506ms
+[debug] [Loading] Done in D:\PRJ\Sbt\project, returning: (sbt-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 7334.1171ms
+[debug]           Load.loadUnit: cleanEvalClasses took 12.098ms
+[debug]         Load.loadUnit(file:/D:/PRJ/Sbt/project/, ...) took 7419.989ms
+[debug]       Load.apply: load took 7424.0877ms
+[debug]       Load.apply: resolveProjects took 0.5765ms
+[debug]       Load.apply: finalTransforms took 41.4022ms
+[debug]       Load.apply: config.delegates took 1.1097ms
+[debug]       Load.apply: Def.make(settings)... took 176.2353ms
+[debug]       Load.apply: structureIndex took 57.5093ms
+[debug]       Load.apply: mkStreams took 0.0044ms
+[info] loading project definition from D:\PRJ\Sbt\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] 
+[warn] 	Note: Unresolved dependencies path:
+[error] sbt.librarymanagement.ResolveException: Error downloading io.github.sugakandrey:scala-compiler-indices-protocol_2.12:0.1.1
+[error]   Not found
+[error]   Not found
+[error]   download error: Caught java.net.SocketTimeoutException: Read timed out (Read timed out) while downloading https://repo1.maven.org/maven2/io/github/sugakandrey/scala-compiler-indices-protocol_2.12/0.1.1/scala-compiler-indices-protocol_2.12-0.1.1.pom
+[error]   not found: C:\Users\Imani\.ivy2\localio.github.sugakandrey\scala-compiler-indices-protocol_2.12\0.1.1\ivys\ivy.xml
+[error]   not found: C:\Users\Imani\AppData\Roaming\JetBrains\IdeaIC2020.2\plugins\Scala\repo\io.github.sugakandrey\scala-compiler-indices-protocol_2.12\0.1.1\ivys\ivy.xml
+[error]   download error: Caught java.net.SocketTimeoutException: Read timed out (Read timed out) while downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.github.sugakandrey/scala-compiler-indices-protocol_2.12/0.1.1/ivys/ivy.xml
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/io.github.sugakandrey/scala-compiler-indices-protocol_2.12/0.1.1/ivys/ivy.xml
+[error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)
+[error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)
+[error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+[error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:227)
+[error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+[error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:53)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:103)
+[error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:116)
+[error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:116)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:97)
+[error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+[error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:130)
+[error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:3486)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+[error] (update) sbt.librarymanagement.ResolveException: Error downloading io.github.sugakandrey:scala-compiler-indices-protocol_2.12:0.1.1
+[error]   Not found
+[error]   Not found
+[error]   download error: Caught java.net.SocketTimeoutException: Read timed out (Read timed out) while downloading https://repo1.maven.org/maven2/io/github/sugakandrey/scala-compiler-indices-protocol_2.12/0.1.1/scala-compiler-indices-protocol_2.12-0.1.1.pom
+[error]   not found: C:\Users\Imani\.ivy2\localio.github.sugakandrey\scala-compiler-indices-protocol_2.12\0.1.1\ivys\ivy.xml
+[error]   not found: C:\Users\Imani\AppData\Roaming\JetBrains\IdeaIC2020.2\plugins\Scala\repo\io.github.sugakandrey\scala-compiler-indices-protocol_2.12\0.1.1\ivys\ivy.xml
+[error]   download error: Caught java.net.SocketTimeoutException: Read timed out (Read timed out) while downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.github.sugakandrey/scala-compiler-indices-protocol_2.12/0.1.1/ivys/ivy.xml
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/io.github.sugakandrey/scala-compiler-indices-protocol_2.12/0.1.1/ivys/ivy.xml
+[debug] > Exec(loadFailed, None, None)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
